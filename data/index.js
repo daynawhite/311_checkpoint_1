@@ -1,3 +1,7 @@
+const routes = require('./routes');
+app.use('/', routes)
+
+
 module.exports = [
   {
     "id": 1,
@@ -230,3 +234,4 @@ module.exports = [
     }
   }
 ]
+
